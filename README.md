@@ -1,5 +1,7 @@
 ![Screenshot](https://gitlab.com/kskarthik/monopriv/raw/master/images/screenshot.png "Desktop View")
+
 ![Screenshot](https://gitlab.com/kskarthik/monopriv/raw/master/images/tn.png "Tab view")
+
 ![Screenshot](https://gitlab.com/kskarthik/monopriv/raw/master/images/mobile.png "Mobile View")
 
 **The images used in theme are only for demonstration purpose, Please don't use those images.**
