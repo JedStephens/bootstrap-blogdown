@@ -9,9 +9,10 @@ DefaultContentLanguage = "en"
 enableInlineShortcodes = true
 footnoteReturnLinkContents = "^"
 theme = "monopriv"
+enableEmoji = true
 
 [params]
-about = "A privacy forcused minimal bootstrap theme"
+about = "A privacy focused minimal bootstrap theme"
 github = "https://github.com"
 gitlab = "https://gitlab.com"
 email = "mail@example.com"

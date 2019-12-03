@@ -3,9 +3,9 @@
 <section class="container text-monospace text-justified mt-3">
   <h2>{{.Title}}</h2>
   <small class="text-secondary">Posted on {{ .PublishDate.Format "January 2, 2006" }} | {{.ReadingTime}} minute read</small>
-  <p>{{ .Content }}</p>
+  {{ .Content }}
   <small>Please mail your comments to <a href="{{.Site.Params.email}}">{{.Site.Params.email}}</a></small><br>
-  <code>Tags: 
+  <code>tags:
   {{- range .Params.tags -}}
       <span class='badge badge-dark'><a class='text-white' href='{{ "tags/" | absURL }}{{ . | lower }}'>{{ . }}</a></span>
   {{ end }}
@@ -15,7 +15,7 @@
 {{else}}
 <section class="container text-monospace text-justified mt-3">
   <h2 class="text-center">{{.Title}}</h2>
-  <p>{{ .Content }}</p>
+    {{ .Content }}
 </section>
 {{end}}
 {{end}}
