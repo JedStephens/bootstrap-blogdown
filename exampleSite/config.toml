@@ -1,4 +1,4 @@
-baseURL = "https://gohugo.io/"
+baseURL = "https://example.com/"
 title = "Monopriv"
 languagecode = "en"
 author = "Steve Francia"
