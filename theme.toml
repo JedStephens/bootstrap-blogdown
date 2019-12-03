@@ -3,7 +3,7 @@
 
 name = "monopriv"
 license = "MIT"
-licenselink = "https://gitlab.com/kskarthik/monopriv/LICENSE"
+licenselink = "https://gitlab.com/kskarthik/monopriv/blob/master/LICENSE"
 description = "A minimal privacy focused blogging theme for hugo"
 homepage = "https://gitlab.com/kskarthik/monopriv"
 tags = ["minimal", "simple", "clean", "blog", "light","bootstrap", "responsive", "fast", "privacy", "monospace"]
