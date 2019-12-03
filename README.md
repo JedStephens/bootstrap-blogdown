@@ -1,7 +1,5 @@
 ![Screenshot](https://gitlab.com/kskarthik/monopriv/raw/master/images/screenshot.png "Desktop View")
-<br>
 ![Screenshot](https://gitlab.com/kskarthik/monopriv/raw/master/images/tn.png "Tab view")
-<br>
 ![Screenshot](https://gitlab.com/kskarthik/monopriv/raw/master/images/mobile.png "Mobile View")
 
 **The images used in theme are only for demonstration purpose, Please don't use those images.**
@@ -20,7 +18,7 @@ $ git clone https://gitlab.com/kskarthik/monopriv.git
 * Fully Responsive Ready.
 * Powered by bootstrap 4 CSS framework.
 * Well Crafted for Personal blog
-* Works without javascript !
+* Works without javascript
 
 ## Contribute
 Feel free to contribute changes, features to this theme!
