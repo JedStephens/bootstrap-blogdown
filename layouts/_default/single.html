@@ -10,8 +10,12 @@
       <span class='badge badge-dark'><a class='text-white' href='{{ "tags/" | absURL }}{{ . | lower }}'>{{ . }}</a></span>
   {{ end }}
   </code>
+  <div class="container mt-2" id="comments">
+    {{if .Site.Params.disqus }}
+      {{ template "_internal/disqus.html" . }}
+    {{end}}
+  </div>
 </section>
-
 {{else}}
 <section class="container text-monospace text-justified mt-3">
   <h2 class="text-center">{{.Title}}</h2>
