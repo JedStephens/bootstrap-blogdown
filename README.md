@@ -1,5 +1,7 @@
 ![Screenshot](https://gitlab.com/kskarthik/monopriv/raw/master/images/screenshot.png "Desktop View")
+
 ![Screenshot](https://gitlab.com/kskarthik/monopriv/raw/master/images/tn.png "Tab view")
+
 ![Screenshot](https://gitlab.com/kskarthik/monopriv/raw/master/images/mobile.png "Mobile View")
 
 **The images used in theme are only for demonstration purpose, Please don't use those images.**
@@ -15,10 +17,12 @@ $ git clone https://gitlab.com/kskarthik/monopriv.git
 
 ## Main features
 
+* Monospace font
 * Fully Responsive Ready.
 * Powered by bootstrap 4 CSS framework.
 * Well Crafted for Personal blog
 * Works without javascript
+* Option to enable / disable disqus, analytics from config (disabled by default for privacy reasons)
 
 ## Contribute
 Feel free to contribute changes, features to this theme!
