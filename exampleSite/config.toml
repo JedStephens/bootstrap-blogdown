@@ -1,4 +1,4 @@
-baseURL = "https://example.com/"
+baseURL = "https://gohugo.io/"
 title = "Monopriv"
 languagecode = "en"
 author = "Steve Francia"
@@ -8,8 +8,9 @@ languageCode = "en"
 DefaultContentLanguage = "en"
 enableInlineShortcodes = true
 footnoteReturnLinkContents = "^"
+googleAnalytics = "UA-123-45"
+disqusShortname = "yourdiscussshortname"
 theme = "monopriv"
-enableEmoji = true
 
 [params]
 about = "A privacy focused minimal bootstrap theme"
@@ -20,6 +21,10 @@ email = "mail@example.com"
 metadesc = "A simple privacy oriented bootstrap hugo blog"
 # site meta keywords
 metakeys = "hugo, simple, minimal, bootstrap, blog"
+# enable/disable disqus comments 
+disqus = false 
+# enable/disable google analytics 
+analytics = false 
 
 [menu]
   [[menu.main]]
