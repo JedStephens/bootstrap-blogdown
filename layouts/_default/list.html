@@ -6,9 +6,9 @@
                 <span class='badge badge-dark'><a class='text-white' href='{{ "tags/" | absURL }}{{ $value.Name | lower }}'>{{ $value.Name }} ({{.Count }})</a></span>
             {{end}}
         {{else}}
-            <div class="container row">
+            <div class="row">
                     {{range .Pages}}
-                    <div class="container-fluid col-md-5 m-3">
+                    <div class="container col-md-5 m-3">
                         <h6><a href="{{.Permalink}}">{{ .Title }}</a></h6>
                         {{if eq .Section "post"}}
                         <small class="text-secondary">{{.PublishDate.Format "January 2, 2006"}} | {{.ReadingTime}} minute read</small>
