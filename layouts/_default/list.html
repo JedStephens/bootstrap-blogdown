@@ -8,7 +8,7 @@
         {{else}}
             <div class="row">
                     {{range .Pages}}
-                    <div class="container col-md-5 m-3">
+                    <div class="col-md-5 m-3">
                         <h6><a href="{{.Permalink}}">{{ .Title }}</a></h6>
                         {{if eq .Section "post"}}
                         <small class="text-secondary">{{.PublishDate.Format "January 2, 2006"}} | {{.ReadingTime}} minute read</small>
