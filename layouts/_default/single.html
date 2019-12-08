@@ -3,7 +3,7 @@
 
 	<section class="container text-monospace text-justified mt-3">
 	  <h2>{{.Title}}</h2>
-	  <small class="text-secondary">Posted on {{ .PublishDate.Format "January 2, 2006" }} | {{.ReadingTime}} minute read</small>
+	  <small class="text-secondary mb-2">Posted on {{ .PublishDate.Format "January 2, 2006" }} | {{.ReadingTime}} minute read</small>
 	  {{ .Content }}
 	  <code>tags:
 	  {{- range .Params.tags -}}
@@ -14,7 +14,7 @@
 	    {{ if .Site.Params.disqus }}
 	      {{ template "_internal/disqus.html" . }}
 	    {{ else }}
-		<small>Please mail your comments to <a href="{{.Site.Params.email}}">{{.Site.Params.email}}</a></small><br>
+		<small class="mt-1">Please mail your comments to <a href="{{.Site.Params.email}}">{{.Site.Params.email}}</a></small><br>
 	    {{end}}
 	  </div>
 	</section>
