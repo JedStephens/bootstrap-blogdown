@@ -8,8 +8,11 @@ pages:
   - git submodule add -f https://gitlab.com/kskarthik/monopriv themes/monopriv
   - mv themes/monopriv/exampleSite/config.toml .
   - hugo -b https://kskarthik.gitlab.io/monopriv/
+  - cd ..
+  - mkdir public
+  - mv hugoBasicExample/public public 
  artifacts:
     paths:
-    - hugoBasicExample/public
+    - public
  only:
     - master
