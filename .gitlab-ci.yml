@@ -6,6 +6,7 @@ pages:
   - git clone https://github.com/gohugoio/hugoBasicExample
   - cd hugoBasicExample
   - git submodule add -f https://gitlab.com/kskarthik/monopriv themes/monopriv
+  - mv themes/monopriv/exampleSite/config.toml .
   - hugo -b https://kskarthik.gitlab.io/monopriv/
  artifacts:
     paths:
