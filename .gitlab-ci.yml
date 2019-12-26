@@ -10,7 +10,7 @@ pages:
   - hugo -b https://kskarthik.gitlab.io/monopriv/
   - cd ..
   - mkdir public
-  - mv hugoBasicExample/public public 
+  - mv hugoBasicExample/public/* public/ 
  artifacts:
     paths:
     - public
