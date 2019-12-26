@@ -9,6 +9,6 @@ pages:
   - hugo -b https://kskarthik.gitlab.io/monopriv/
  artifacts:
     paths:
-    - public
+    - hugoBasicExample/public
  only:
     - master
