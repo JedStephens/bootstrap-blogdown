@@ -5,7 +5,7 @@ pages:
   - apk add git
   - git clone https://github.com/gohugoio/hugoBasicExample
   - cd hugoBasicExample
-  - git submodule add https://gitlab.com/ksksarthik/monopriv themes/monopriv
+  - git submodule add -f https://gitlab.com/ksksarthik/monopriv themes/monopriv
   - hugo -b https://kskarthik.gitlab.io/monopriv/
  artifacts:
     paths:
