@@ -9,8 +9,7 @@ pages:
   - mv themes/monopriv/exampleSite/config.toml .
   - hugo -b https://kskarthik.gitlab.io/monopriv/
   - cd ..
-  - mkdir public
-  - mv hugoBasicExample/public/* public/ 
+  - mv hugoBasicExample/public .
  artifacts:
     paths:
     - public
