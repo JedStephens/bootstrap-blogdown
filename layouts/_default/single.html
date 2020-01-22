@@ -23,7 +23,9 @@
 {{else}}
 	<section class="container text-justified mt-3">
 	  <h2 class="text-center mb-4">{{.Title}}</h2>
-	    {{ .Content }}
+	    <div class="text-monospace">
+			{{ .Content }}
+		</div>
 	</section>
 {{end}}
 {{end}}
