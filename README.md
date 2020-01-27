@@ -4,27 +4,18 @@ The master branch includes changes by Jed Stephens. This revised version is docu
 
 ![Screenshot](https://gitlab.com/kskarthik/monopriv/raw/master/images/screenshot.png "Desktop View")
 
-![Screenshot](https://gitlab.com/kskarthik/monopriv/raw/master/images/tn.png "Tab view")
-
-![Screenshot](https://gitlab.com/kskarthik/monopriv/raw/master/images/mobile.png "Mobile View")
-
-**The images used in theme are only for demonstration purpose, Please don't use those images.**
-
 ## Installation
 
-Navigate to your themes folder in your Hugo site and use the following command:
-
+It is easy to use this theme.
+If you are updating an existing blogdown use:
 ```
-$ git clone https://gitlab.com/kskarthik/monopriv.git
-
+blogdown::install_theme('JedStephens/bootstrap-blogdown', force = TRUE)
 ```
 
 ## Main features
 
-* Monospace font
-* Fully Responsive Ready.
+* Crafted for blogdown. (Includes adjustments to make R code easier to read).
 * Powered by bootstrap 4 CSS framework.
-* Well Crafted for Personal blog
 * Works without javascript
 * Option to enable / disable disqus, analytics from config (disabled by default for privacy reasons)
 
@@ -33,9 +24,9 @@ Feel free to contribute changes, features to this theme!
 
 ## Reporting Issues
 
-We use Gitlab Issues as the official bug tracker for the restaurant Template. Please Search [existing issues](https://gitlab.com/kskarthik/monopriv/issues). It’s possible someone has already reported the same problem.
-If your problem or idea is not addressed yet, [open a new issue](https://gitlab.com/kskarthik/monopriv/issues)
+The original monopriv theme has its own GitLab Issues tracker, see: https://gitlab.com/kskarthik/monopriv/issues
+For a bad experience on blogdown see this tracker.
 
 ## Licensing
 
-This Theme is released under MIT license
+This Theme is released under MIT license.
