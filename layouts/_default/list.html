@@ -11,7 +11,7 @@
                     <div class="col-md-5 m-3">
                         <h6><a href="{{.Permalink}}">{{ .Title }}</a></h6>
                         {{if eq .Section "post"}}
-                        <small class="text-monospace text-secondary">{{.PublishDate.Format "January 2, 2006"}} | {{.ReadingTime}} minute read</small>
+                        <small class="text-sans-serif text-secondary">{{.PublishDate.Format "January 2, 2006"}} | {{.ReadingTime}} minute read</small>
                         {{end}}
                     </div>
                     {{end}}
