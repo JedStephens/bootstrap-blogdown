@@ -1,3 +1,7 @@
+This is a blogdown (see https://bookdown.org/yihui/blogdown/) adapted version of the monopriv theme.
+The master branch tracks the monopriv theme without changes.
+The blogdown branch includes changes by Jed Stephens. This revised version is documented below. 
+
 ![Screenshot](https://gitlab.com/kskarthik/monopriv/raw/master/images/screenshot.png "Desktop View")
 
 ![Screenshot](https://gitlab.com/kskarthik/monopriv/raw/master/images/tn.png "Tab view")
