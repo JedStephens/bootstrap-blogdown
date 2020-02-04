@@ -22,6 +22,7 @@ $ git clone https://gitlab.com/kskarthik/monopriv.git
 * Powered by bootstrap 4 CSS framework.
 * Well Crafted for Personal blog
 * Works without javascript
+* Site Search - powered by DuckDuckGo 
 * Option to enable / disable disqus, analytics from config (disabled by default for privacy reasons)
 
 ## Contribute

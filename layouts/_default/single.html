@@ -15,8 +15,6 @@
 	  <br>
 	    {{ if .Site.Params.disqus }}
 	      {{ template "_internal/disqus.html" . }}
-	    {{ else }}
-		<small class="text-monospace mt-1">Please mail your comments to <a href="{{.Site.Params.email}}">{{.Site.Params.email}}</a></small><br>
 	    {{end}}
 	</section>
 
