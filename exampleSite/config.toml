@@ -12,11 +12,7 @@ googleAnalytics = "UA-123-45"
 disqusShortname = "yourdiscussshortname"
 theme = "monopriv"
 
-[params]
-  [params.search] # Site search powered by DuckDuckGo
-    enabled = true
-    placeholder="Site Search"
-
+[params]  
 about = "A privacy focused minimal bootstrap theme"
 img = "img/logo.png"
 github = "https://github.com"
@@ -30,3 +26,6 @@ metakeys = "hugo, simple, minimal, bootstrap, blog"
 disqus = false 
 # enable/disable google analytics 
 analytics = false
+    [params.search] # Site search powered by DuckDuckGo
+        enabled = true
+        placeholder="Site Search"
