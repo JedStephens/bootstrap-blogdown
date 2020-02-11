@@ -1,8 +1,10 @@
 {{define "main"}}
 {{- partial "hero.html" . -}}
 <section id="posts" class="container mt-4">
-	<h3 class="text-monospace text-center">Recent Posts</h3>
-	<div class="card-columns">
+    {{ if .Site.Params.search.enabled }}
+        {{partial "search.html" .}}
+    {{end}}
+	<div class="card-columns mt-3">
 		{{range first 6 .Site.RegularPages }}
 			{{if eq .Section "post"}}
 				<div class="bg-light card">
@@ -22,8 +24,5 @@
 		<img  class="img-responsive" src='{{ "img/no-facebook.png" | absURL }}' width="200px" alt="I'm Not On Faceboook">
 	</a>
 </section>
-	{{ if .Site.Params.search.enabled }}
-		{{partial "search.html" .}}
-	{{end}}
 {{end}}
 

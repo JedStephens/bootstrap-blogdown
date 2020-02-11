@@ -1,5 +1,4 @@
 {{define "main"}}
-
 {{ if eq .Section "post"}}
 	<section class="container text-justified mt-3">
 	  <h2 class="font-weight-bold">{{.Title}}</h2>
@@ -7,7 +6,12 @@
 	  <div class="text-monospace mt-2">
 		  {{ .Content }}
 	  </div>
-	  <code>tags:
+	  <div>
+	  <a href='mailto:?subject={{.Title}}?body={{.Permalink}}'><button class='btn btn-sm'>:email:</button></a>
+	  <a href=''><button class='btn btn-sm'>::</button></a>
+	  <a href=''><button class='btn btn-sm'>::</button></a>
+	  </div>
+	  <code>Tags:
 	  {{- range .Params.tags -}}
 	      <span class='badge badge-dark'><a class='text-white' href='{{ "tags/" | absURL }}{{ . | lower }}'>{{ . }}</a></span>
 	  {{ end }}
@@ -25,5 +29,8 @@
 			{{ .Content }}
 		</div>
 	</section>
+{{end}}
+{{ if .Site.Params.search.enabled}}
+    {{partial "search.html" .}}
 {{end}}
 {{end}}
