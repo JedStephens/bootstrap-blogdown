@@ -6,11 +6,12 @@
 	  <div class="text-monospace mt-2">
 		  {{ .Content }}
 	  </div>
+	  <hr>
 	  <div>Share via
 	  <a title='email' href='mailto:?subject={{.Title}}&body={{.Permalink}}'><button class='btn btn-sm btn-light'>{{ ":email:" | emojify }}</button></a>
-	  <!--<a title='twitter'><button class='btn btn-light btn-sm'>{{":bird:" | emojify }}</button></a>
-	  </div>-->
-	  <br><br>
+	  <!--<a title='twitter'><button class='btn btn-light btn-sm'>{{":bird:" | emojify }}</button></a>-->
+	  </div>
+	  <br>
 	  <code>Tags:
 	  {{- range .Params.tags -}}
 	      <span class='badge badge-dark'><a class='text-white' href='{{ "tags/" | absURL }}{{ . | lower }}'>{{ . }}</a></span>
