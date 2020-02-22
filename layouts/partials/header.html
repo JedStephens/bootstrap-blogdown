@@ -1,7 +1,14 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="description" content='{{ .Site.Params.metadesc }}'>
-	<meta name="keywords" content='{{ .Site.Params.metakeys }}'>
+	{{if .IsHome}}
+		<meta name="keywords" content='{{ .Site.Params.metakeys }}'>
+	{{else}}
+		{{if eq .Section "post"}}
+		<meta name="keywords" content='{{ range .Params.tags}}{{.}}{{", "}}{{end}}'>
+	{{end}}
+	<!-- {{range .Params.tags}}{{.}}{{", "}}{{end}} -->
+	{{end}}
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	{{ hugo.Generator }}
 	<link rel="stylesheet" type="text/css" href='{{ "css/bootstrap.min.css" | absURL }}'>
