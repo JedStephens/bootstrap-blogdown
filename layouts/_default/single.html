@@ -1,5 +1,4 @@
 {{define "main"}}
-
 {{ if eq .Section "post"}}
 	<section class="container text-justified mt-3">
 	  <h2 class="font-weight-bold">{{.Title}}</h2>
@@ -7,7 +6,13 @@
 	  <div class="text-sans-serif mt-2">
 		  {{ .Content }}
 	  </div>
-	  <code>tags:
+	  <hr>
+	  <div>Share via
+	  <a title='email' href='mailto:?subject={{.Title}}&body={{.Permalink}}'><button class='btn btn-sm btn-light'>{{ ":email:" | emojify }}</button></a>
+	  <!--<a title='twitter'><button class='btn btn-light btn-sm'>{{":bird:" | emojify }}</button></a>-->
+	  </div>
+	  <br>
+	  <code>Tags:
 	  {{- range .Params.tags -}}
 	      <span class='badge badge-dark'><a class='text-white' href='{{ "tags/" | absURL }}{{ . | lower }}'>{{ . }}</a></span>
 	  {{ end }}
@@ -15,11 +20,8 @@
 	  <br>
 	    {{ if .Site.Params.disqus }}
 	      {{ template "_internal/disqus.html" . }}
-	    {{ else }}
-		<small class="text-sans-serif mt-1">Please mail your comments to <a href="{{.Site.Params.email}}">{{.Site.Params.email}}</a></small><br>
 	    {{end}}
 	</section>
-
 {{else}}
 	<section class="container text-justified mt-3">
 	  <h2 class="text-center mb-4">{{.Title}}</h2>
@@ -27,5 +29,8 @@
 			{{ .Content }}
 		</div>
 	</section>
+{{end}}
+{{ if .Site.Params.search.enabled}}
+    {{partial "search.html" .}}
 {{end}}
 {{end}}
