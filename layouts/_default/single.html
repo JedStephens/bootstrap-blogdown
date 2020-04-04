@@ -3,7 +3,7 @@
 	<section class="container text-justified mt-3">
 	  <h2 class="font-weight-bold">{{.Title}}</h2>
 	  <small class="text-secondary mb-5">Posted on {{ .PublishDate.Format "January 2, 2006" }} | {{.ReadingTime}} minute read</small>
-	  <div class="text-monospace mt-2">
+	  <div class="sans-serif mt-2">
 		  {{ .Content }}
 	  </div>
 	  <hr>
@@ -25,7 +25,7 @@
 {{else}}
 	<section class="container text-justified mt-3">
 	  <h2 class="text-center mb-4">{{.Title}}</h2>
-	    <div class="text-monospace">
+	    <div class="sans-serif">
 			{{ .Content }}
 		</div>
 	</section>
