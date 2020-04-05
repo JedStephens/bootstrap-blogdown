@@ -1,4 +1,4 @@
-baseURL = "https://gohugo.io/"
+baseURL = "/"
 title = "Bootstrap-Blogdown"
 languagecode = "en"
 author = "Steve Francia"
