@@ -16,8 +16,9 @@ blogdown::install_theme('JedStephens/bootstrap-blogdown', force = TRUE)
 
 * Crafted for blogdown. (Includes adjustments to make R code easier to read).
 * Powered by bootstrap 4 CSS framework.
-* Works without javascript
-* Site Search - powered by DuckDuckGo 
+* RStudio style code formatting
+* MathJax Support.
+* Optional: Site Search - powered by DuckDuckGo 
 * Option to enable / disable disqus, analytics from config (disabled by default for privacy reasons)
 
 ## Contribute
