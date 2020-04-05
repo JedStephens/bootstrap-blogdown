@@ -1,7 +1,7 @@
 baseURL = "/"
 title = "Bootstrap-Blogdown"
 languagecode = "en"
-author = "Steve Francia"
+author = "Your Name"
 copyright = "Copyright © 2008–2019" #supports html markup
 paginate = 3
 languageCode = "en"
