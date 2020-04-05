@@ -15,7 +15,7 @@ enableEmoji = true
 summaryLength = 20
 
 [params]
-about = "A boostrap Blogdown focussed theme built on Steve Francia's monopriv"
+about = "A boostrap Blogdown focussed theme built on monopriv. Now yours to customise!"
 github = "https://github.com"
 gitlab = "https://gitlab.com"
 email = "mail@example.com"
