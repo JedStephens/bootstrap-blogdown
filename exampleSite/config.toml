@@ -10,9 +10,10 @@ enableInlineShortcodes = true
 footnoteReturnLinkContents = "^"
 googleAnalytics = "UA-123-45"
 disqusShortname = "yourdiscussshortname"
-theme = "monopriv"
+theme = "bootstrap-blogdown"
 enableEmoji = true
 summaryLength = 20
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 [params]
 about = "A boostrap Blogdown focussed theme built on monopriv. Now yours to customise!"
